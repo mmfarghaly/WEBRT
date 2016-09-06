@@ -1,0 +1,10 @@
+{
+  "name": "helloworld",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "express": "4.13.3",
+	"nodejs-websocket": "1.5.0",
+	"mysql":"2.10.2"
+  }
+}
