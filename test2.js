@@ -15,7 +15,7 @@
 
 //)
 
-   io = require('socket.io').listen(server);/////wait(server);  
+   io = require('socket.io').listen(http);/////wait(server);  
   // console.log('sqlllllllllllllllll');
   io.set('close timeout', 60*60*24);
   io.set('heartbeat interval', 1000000);
@@ -28,8 +28,8 @@
 })*/
 
 
-server.listen(1337);
-//http.listen(8081);
+//server.listen(1337);
+http.listen(8081);
   
    var sql = require('mssql');
    var xml2js = require('xml2js');
